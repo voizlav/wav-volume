@@ -5,7 +5,7 @@ This is a simple C program that allows the user to modify the volume of a .wav a
 ## Usage
 To use this program, open your terminal and navigate to the directory containing the source code.
 
-Compile the code using the following command:
+Compile the code and run using the following command:
 
 ```C
 $ gcc -o volume volume.c
@@ -21,4 +21,6 @@ This program works by reading in the header of the input .wav file, then modifyi
 
 The program assumes that the input .wav file has a standard format with a 44-byte header, and that the audio data is in the form of 16-bit signed integers.
 
+### Credit
 
+This program was developed as a CS50 exercise in C programming.
